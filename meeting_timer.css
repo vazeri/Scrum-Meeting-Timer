@@ -1,0 +1,37 @@
+body {
+	padding: 1em;
+}
+
+.active > .timer {
+	background-color: #BBDEFB !important;
+}
+
+.timer .time {
+	font-size: 1.71428571rem;
+	margin-right: 3rem;
+}
+
+.timer .name {
+	font-size: 1.5rem;
+	width: 18rem;
+	white-space: nowrap;
+	display: inline-flex;
+}
+
+.timer .name div {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 2.1rem
+}
+
+.timer .button {
+	width: 13rem;
+}
+
+.timer .data {
+	margin-bottom: 0.5em;
+}
+
+.timer .pgtimer {
+	margin-bottom: 0em !important;	
+}
